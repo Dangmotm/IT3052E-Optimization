@@ -1,0 +1,4 @@
+- test=[1]
+- only=GA
+- algorithm.GA.max_time=0.01
+- path.RES=hydra_test_results

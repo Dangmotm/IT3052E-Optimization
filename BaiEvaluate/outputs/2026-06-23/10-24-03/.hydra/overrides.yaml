@@ -1,0 +1,4 @@
+- test=[1]
+- only=TS
+- algorithm.TS.max_time=0.01
+- path.RES=C:/tmp/it3052e-hydra-test

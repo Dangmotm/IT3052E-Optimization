@@ -1,0 +1,41 @@
+path:
+  ROOT: .
+  DATA: ${path.ROOT}/data/
+  RES: hydra_test_results
+seed: 42
+only: null
+current_test: null
+test:
+- 1
+methods:
+- ACO
+- GA
+- SA
+- TS
+algorithm:
+  ACO:
+    max_time: 0.01
+    num_ants: 10
+    alpha: 1.0
+    beta: 2.0
+    rho: 0.1
+    tau0: 1.0
+    tau_min: 0.0001
+    tau_max: 10.0
+  GA:
+    max_time: 0.01
+    population_size: 10
+    attempts: 5
+    mutation_rate: 0.05
+  SA:
+    max_time: 0.01
+    T0: 50.0
+    t_min: 0.001
+    attempts: 5
+    mutation_rate: 0.1
+  TS:
+    max_time: 0.01
+    num_neighbors: 10
+    attempts: 5
+    mutation_rate: 0.1
+    tabu_tenure: 10

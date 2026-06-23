@@ -1,0 +1,3 @@
+- test=[2]
+- only=SA
+- algorithm.SA.max_time=10
